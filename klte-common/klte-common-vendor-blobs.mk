@@ -188,8 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/cameradata/F16QL_Isp1_s5k2p2xx.bin:system/cameradata/F16QL_Isp1_s5k2p2xx.bin \
     vendor/samsung/klte-common/proprietary/cameradata/F16QS_Isp0_imx240.bin:system/cameradata/F16QS_Isp0_imx240.bin \
     vendor/samsung/klte-common/proprietary/cameradata/F16QS_Isp1_imx240.bin:system/cameradata/F16QS_Isp1_imx240.bin \
-    vendor/samsung/klte-common/proprietary/cameradata/G16QL_Isp0_s5k2p2xx.bin:system/cameradata/G16QL_Isp0_s5k2p2xx.bin \
-    vendor/samsung/klte-common/proprietary/cameradata/G16QL_Isp1_s5k2p2xx.bin:system/cameradata/G16QL_Isp1_s5k2p2xx.bin \
     vendor/samsung/klte-common/proprietary/cameradata/Master0.bin:system/cameradata/Master0.bin \
     vendor/samsung/klte-common/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
     vendor/samsung/klte-common/proprietary/cameradata/cal_data_LSCmaster.bin:system/cameradata/cal_data_LSCmaster.bin \
