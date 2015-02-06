@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/samsung/klte-common/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/samsung/klte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
     vendor/samsung/klte-common/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
     vendor/samsung/klte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -201,10 +202,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/klte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/klte-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/klte-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/samsung/klte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/klte-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/klte-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -246,16 +245,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/klte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/klte-common/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/klte-common/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/klte-common/proprietary/bin/time_daemon:system/bin/time_daemon \
